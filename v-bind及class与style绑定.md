@@ -87,10 +87,56 @@
 
 当某一个选项为真时，其类名就会被渲染，如果多个为真，那就渲染多个类。当:class过长时，可以使用计算属性，一般当条件多余2个时，都可以使用计算属性：
 
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="https://unpkg.com/vue@2.1.6/dist/vue.min.js"></script>
+	</head>
+	<style>
+		.css1{
+			color: blue;
+		}
+		.css2{
+			color: brown;
+		}
+	</style>
+	<body>
+		<div id="app" >
+			<p :class="classes">Hello</p><br>
+			<button @click='change'>点击变色</button>
+		</div>
+		<script>
+			var app = new Vue({
+				el : '#app',
+				data : {
+					isShow1 : false,
+					isShow2 : true
+				},
+				computed :{
+					classes : function(){
+						return {
+							css1 : this.isShow1,
+							css2 : this.isShow2
+						}
+					}
+				},
+				methods : {
+					change : function(){
+						this.isShow1 = true;
+						this.isShow2 = false;
+					}
+				}
+			})
+		</script>
+	</body>
+</html>
 ```
 
-```
 
+**数组用法**
 
 
 
