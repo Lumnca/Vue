@@ -12,3 +12,5 @@
 :octocat:[内置指令](https://github.com/Lumnca/Vue/blob/master/%E5%86%85%E7%BD%AE%E6%8C%87%E4%BB%A4.md)
 
 :octocat:[表单与v-model](https://github.com/Lumnca/Vue/blob/master/%E8%A1%A8%E5%8D%95%E4%B8%8Ev-model.md)
+
+:octocat:[组件详解](https://github.com/Lumnca/Vue/blob/master/%E7%BB%84%E4%BB%B6.md)
