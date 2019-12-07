@@ -14,3 +14,5 @@
 :octocat:[表单与v-model](https://github.com/Lumnca/Vue/blob/master/%E8%A1%A8%E5%8D%95%E4%B8%8Ev-model.md)
 
 :octocat:[组件详解](https://github.com/Lumnca/Vue/blob/master/%E7%BB%84%E4%BB%B6.md)
+
+:octocat:[Ajax](https://github.com/Lumnca/Vue/blob/master/ajax.md)
